@@ -1,2 +1,4 @@
 # eccnate.github.io
-Temp
+
+
+Temporary example for somebody else's project.
