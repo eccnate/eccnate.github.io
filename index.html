@@ -1,83 +1,474 @@
 <!doctype html>
-<html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Motherduck Landing Page</title>
+</head>
+
+
+
 <body bgcolor="#BBBB66">
 
-<center><h1>
-  C-to-C
-</h>
-  <hr>
-  <h6>
-    Familiar Faces :)
-  </h6>
-  <img src="./Player1.jpg" height="225" width="225" />
-  <img src="./Player2.jpg" height="225" width="225" />
-  <img src="./Player3.jpg" height="225" width="225" />
-  <br />
-  Amateur strangers in Vancouver starting with C on Linux.
- </center>
- 
-  <br />
-  <br />
-<details>
-<summary><b>
-  Why We Love C?
-  </b></summary>
+<header>
+<h1 id="title">C Programming Group </h1>
+</header>
 
-  <p>We're nerds who care about details, fascinated to know what's <b><i>really</i></b> happening under the hood, and to be in absolute control in our programming!  (Do not trust abstracted languages!)  How the C standard implements ideas, is how the Linux computer and Internet servers as-a-whole get implemented. (..And Android phones, and Chrome Books, and Raspberry Pi, and others.)  Languages will claim similar, but C is the veteran in the room that does not bend an allegiance to propriety--C#, Objective-C, etc. C is the go-to foundation for real engineers developing new technology, making it ubiquitous within many tools you use today.  You will find that most languages are merely built from C.  (Therefore, pity the fool who says it cannot be done in C!)  Why limit yourself by higher languages?  Micro-managing code to optimize algorithms makes C binaries the fastest <i>practical</i> processes [<a href="https://benchmarksgame.alioth.debian.org/u64q/which-programs-are-fastest.html">benchmark link</a>].  Being just a step above Assembly, it is expressive as a high level language, while having the ability to cater to the hardware.  The real power goes to those with the faculties to master its domain, as you are made responsible for the binary you produce; the training wheels are off, and there is no safety net!  (<i>Not true anymore, the OS has many built-in fail-safes.</i>)  There are no cutting corners, C comes with minimal tools.  It is the master language, and demands thoroughness.  Use it wisely. </p>
-  <p>
-    If you can C, everything else is cheese.
-  </p>
-  </details>
+<main>
 
-  <br />
-  <br />
+
+
+<figure>
+  <table>
+    <tr>
+      <td><img src="./player1.jpg" alt="Player 1 mugshot" style="width:200px" /> </td>
+      <td><img src="./player2.jpg" alt="Player 2 mugshot" style="width:200px" /> </td>
+      <td><img src="./player3.jpg" alt="Player 3 mugshot" style="width:200px" /> </td>
+      <td><img src="./player4.jpg" alt="Player 4 mugshot" style="width:200px" /> </td>
+    </tr>
+  </table>
   
-  <details>
-    <summary><b>Suggestions :</b></summary>
+  <figcaption> Familiar Faces </figcaption>
+</figure>
+
+
+
+<blockquote>
+"Learning the language's syntax is TRIVIAL. <br />
+Actually MAKING USE of the language is elusive." 
+</blockquote>
+<cite>Motherduck</cite>
+
+
+
+<section>
+<h2>Who We Are </h2>
+
+<p>
+We are <em>amateurs</em> and fanatic about details; fascinated to know what's <em>really</em> happening under the hood and to be in absolute control in our programming.  Why accept limitations?  (Do not trust abstracted languages!)
+</p>
+
+
+<h3>Get Your Own Red Pill </h3>
+
+<ul>
+  <li><a href="https://www.meetup.com/cities/ca/bc/vancouver/">Meetup</a>, Vancouver </li>
+  <li>Email: [copyright owner at bottom] at this domain, SUBJECT=[opposing pill color, 2 or less words only], or forever hold your peace.  Initially: plain text, no links.
+  <li>We have a VPN for remote collaboration. </li>
+  <li>This page is still just <em>thinking out loud</em>.  Do not call us.  We'll call you. </li>
+</ul>
+
+</section>
+
+
+
+<br /><br /><hr />
+
+
+
+<section>
+<h2>Why We Love C </h2>
+
+<p>
+C is <em>lingua franca</em>.  The Godfather.  There are no "there's no library for that yet" excuses.  You will find that most language runtimes are merely built atop C, waiting for capabilities to be written in C.  <em>What-a-shit-show</em>.  (Pity the fool who says it cannot be done in C!)  C is the go-to <em>foundation</em> for real engineers developing new technology, making it ubiquitous within the tools one uses today.
+How the C runtime implements ideas is how POSIX systems as-a-whole get implemented (Linux, Android, Chrome Books, Raspberry Pi, Internet servers, many others!)  The two specifications were drafted simultaneously and have been in bed together ever since.  Competing languages will try to compare, but C is the veteran in the room that has done it all.
+Micro-managing code to optimize algorithms makes C binaries the fastest practical processes [<a href="https://benchmarksgame.alioth.debian.org/u64q/which-programs-are-fastest.html">benchmarks</a>].  Being just a step above Assembly, it is expressive as a high level language, while having the ability to cater to the hardware.  The real power goes to those with the faculties to master its domain, as one is made responsible for the binary they produce.  The training wheels are off and there is no safety net!  (Not true anymore, the OS has many built-in fail-safes.)  There are no cutting corners, it demands thoroughness.  Use it wisely.  The first principle in the "spirit of C" is to <em>trust the programmer</em>.
+</p>
+
+<blockquote>
+"If you can C, everything else is cheese." 
+</blockquote>
+<cite>Motherduck</cite>
+</section>
+
+
+
+<br /><br /><hr />
+<a href="#title" class="top">[top]</a>
+
+
+
+<section>
+<h2>The Down Low </h2>
+
+<h3>What distinguishes C? </h3>
+<ul>
+	<li>Manual memory management </li>
+	<li>No garbage collection </li>
+	<li>Minimal tools built-in; streamlined </li>
+	<li>Not portable (despite early claims compared to 	Assembly upon inception) </li>
+	<li>Is <em>in fact</em> a high level language
+	<li>Often <em>is</em> the runtime system </li>
+</ul>
+
+
+<h3>When and how to C </h3>
+
+<blockquote>
+"C should not be your first rodeo."
+</blockquote>
+<cite>Motherduck</cite>
+
+<p>
+The distinguishing factors of C make it appropriate for projects with low level considerations of systems, and reduntant otherwise.  If one is not going to enjoy venturing into the abyss of systems, there are perfectly suited languages for that purpose of which to spend one's time.  Do not let tutorials cop-out and convince oneself that C is just syntax like most other languages.  Writing robust battle-ready code for production and showcasing is going to require a broader understanding of the toolchain than just that of the C language itself.  To require a sub-system like Cygwin/MinGW is the antithesis of a C programmer.  This is where the programmers are distinguished from the script-kiddies.
+</p><p>
+Reading a C-standard textbook from cover to index will fill one's head with un-applicable knowledge.  Unbuffered keyboard input from the user is not acquired through the C language alone, never mind audio/visual and device communications.  (And static programs won't get one laid.)  Once one breaks those barriers the code will &ndash;initially&ndash; only be valid within the environment of which it was produced.  Fuck.
+</p><p>
+Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unsexy but there's no point in learning C if one is not going to master its domain.  To master a domain, one must work from the ground&ndash;up.  Learn the preprocessor and the linker, be a programmer!
+</p>
+<blockquote>
+"If you want to be a script-kittie, stay in college."
+</blockquote>
+<blockquote>
+"If you are a person who already enjoys boring subjects like mathematics, biology or chemistry, then you've found another home in computer science with C!"
+</blockquote>
+<cite>Motherduck</cite>
+</section>
+
+
+
+<br /><br /><hr />
+<a href="#title" class="top">[top]</a>
+
+
+
+<section>
+<h2>Terms you may learn : </h2>
   
-  <p>
-    If this is your first rodeo, you will likely be bored by C, thinking "that's all?"  It's a rough starting point.  Best to start with a higher level language to get flashier results sooner; these languages serve a great economical purpose.  Unless you are a person who already enjoys boring subjects like mathematics, biology, or chemistry, then you've found another home in computer science with C!
-  </p>
-    </details>
-  <br />
-  <br />
-  
-  <details>
-  <summary><b>Terms you may learn :</b></summary>
-  
+<p>
 (but not all necessary for fun)
-  <ul>
-    <li>libc (by GNU, Musl, or Bionic..), ANSI-C </li>
-<li>Pre-Processor, Linker, Assembler, Shared-Object, Makefile </li>
-<li>GCC, LLVM/Clang, toolchain </li>
-<li>Cygwin, ncurses </li>
-<li>GPGPU or OpenGL / OpenCL / Cuda, OpenACC or OpenMP or OpenMPP </li>
-<li>APU/FPU (IEEE 754) </li>
-<li>BLAS, LAPACK, GMP / GNU MPFR </li>
-<li>ASCII, UTF / Unicode, Two's Compliment, Big-Endian / Little-Endian </li>
-<li>(Big) O-Notation, P vs NP, Algorithms </li>
-<li>Cache, Register, Stack, Heap, Data Structures </li>
-<li>Socket, TCP, pthread, Atomic, kernel, urandom / entropy, POSIX </li>
-<li>SIGINT, SIGKILL </li>
-<li>Race condition, SEI CERT (secure coding) </li>
-<li>Segment Fault </li>
-  </ul>
-  </details>
+</p>
+
+
+<h3>C-Specific </h3>
+
+<details>
+  <summary>Atomic, pthread </summary>
+  <p>
+  Description
+  </p>
+</details>
   
-    <br />
-  <br />
-    <br />
-  <br />
-    <br />
-  <br />
-    <br />
-  <br />
-    <br />
-  <br />
-    <br />
-  <br />
-    <br />
-  <br />
+<details>
+  <summary>ANSI-C </summary>
+  <p>
+  Description
+  </p>
+</details>
+  
+<details>
+  <summary>crt0 </summary>
+  <p>
+  Description
+  </p>
+</details>
+  
+<details>
+  <summary>- GCC, LLVM/Clang </summary>
+  <p>
+  Description
+  </p>
+</details>
+  
+<details>
+  <summary>libc (by GNU, Musl, or Bionic..) </summary>
+  <p>
+  Description
+  </p>
+</details>
+  
+<details>
+  <summary>- GCC, LLVM/Clang </summary>
+  <p>
+  Description
+  </p>
+</details>
+  
+<details>
+  <summary>- Preprocessor, Linker, Assembler </summary>
+  <p>
+  Description
+  </p>
+</details>
+  
+<details>
+  <summary>GMP / GNU MPFR </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>- SEI-CERT </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+
+<h3>POSIX-Specific </h3>
+
+<details>
+  <summary>Cygwin, MinGW </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>GNU, (x)GPL </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>ncurses </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>POSIX, SUS </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>SIGINT, SIGKILL </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Socket </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>urandom </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+
+<h3>General Programming </h3>
+
+<details>
+  <summary>Algorithms, P vs NP </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>ALU/FPU (IEEE 754) </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>ASCII, UTF / Unicode </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>BSD-(n)Clause, MIT </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>BLAS, LAPACK </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Cache, Register </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Clean Code, Secure Coding </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary><a href="./structures.html">Data Structures</a> </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Declarative, Functional, Imperative, Paradigms, Object-Oriented (OOP) </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Endianness - Big/Little </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Entropy </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>GCC, LLVM/Clang </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>GPGPU, OpenGL, OpenCL, Cuda </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Kernel </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Makefile </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>MMU, Virtual Addressing </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>(Big) O-Notation </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>OpenACC, OpenMP, OpenMPI </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Preprocessor, Linker, Assembler </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Race condition, Stack Overflow </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Segmentation Fault </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Shared Object </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>SSE </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Stack, Heap </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Strong/Weak Typing </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>TCP, UDP </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Toolchain </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>Two's Compliment </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+</section>
+
+
+
+<br /><br /><hr />
+
+
+
+</main>
+<footer> &copy; 2017 eccnate (on Github.com). All rights reserved. </footer>
+
+
 
 </body>
 </html>
