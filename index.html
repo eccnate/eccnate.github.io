@@ -37,14 +37,10 @@
 
 
 <figure>
-  <table>
-    <tr>
-      <td><img src="./Player1.jpg" alt="Player 1 mugshot" style="width:200px" /> </td>
-      <td><img src="./Player2.jpg" alt="Player 2 mugshot" style="width:200px" /> </td>
-      <td><img src="./Player3.jpg" alt="Player 3 mugshot" style="width:200px" /> </td>
-      <td><img src="./player4.jpg" alt="Player 4 mugshot" style="width:200px" /> </td>
-    </tr>
-  </table>
+  <img src="./Player1.jpg" alt="Player 1 mugshot" style="width:20vw" />
+  <img src="./Player2.jpg" alt="Player 2 mugshot" style="width:20vw" />
+  <img src="./Player3.jpg" alt="Player 3 mugshot" style="width:20vw" />
+  <img src="./player4.jpg" alt="Player 4 mugshot" style="width:20vw" />
   
   <figcaption> Familiar Faces </figcaption>
 </figure>
@@ -120,6 +116,15 @@ Micro-managing code to optimize algorithms makes C binaries the fastest practica
 </ul>
 
 
+<h3>The Contenders</h3>
+
+<ul>
+  <li><em>C++</em> is its own beast.  Originally as a superset to C for OOP extensions, it has deviated from C, though ANSI-C code will still compile on a C++ compiler.  C++ is very suitable for large projects with its OOP design.  It does, however, suffer from identidy insecurities because it is always trying to stance-up against C. </li>
+  <li><em>Objective-C</em> is a direct superset of C adopted by Apple for their products, now superceded by Swift.  C code will always compile on Objective-C.  Learn C, and Objective-C will be a breeze.  </li>
+<li><em>C#</em> has a similar relation to C as C++, and is developed by Microsoft for their products.  Microsoft and Apple kernels are both originally -and still contain- C code. </li>
+</ul>
+
+
 <h3>When and how to C </h3>
 
 <blockquote>
@@ -128,7 +133,7 @@ Micro-managing code to optimize algorithms makes C binaries the fastest practica
 <cite>&mdash;Motherduck</cite>
 
 <p>
-The distinguishing factors of C make it appropriate for projects with low level considerations of systems, and reduntant otherwise.  If one is not going to enjoy venturing into the abyss of systems, there are perfectly suited languages for that purpose of which to spend one's time.  Do not let tutorials cop-out and convince oneself that C is just syntax like most other languages.  Writing robust battle-ready code for production and showcasing is going to require a broader understanding of the toolchain than just that of the C language itself.  To require a sub-system like Cygwin/MinGW is the antithesis of a C programmer.  This is where the programmers are distinguished from the script-kiddies.
+The distinguishing factors of C make it appropriate for projects with low level considerations of systems, and reduntant otherwise.  If one is not going to enjoy venturing into the abyss of systems, there are perfectly suited languages for that purpose of which to spend one's time.  Do not let tutorials cop-out and convince oneself that C is just syntax like most other languages.  Writing robust battle-ready code for production and showcasing is going to require a broader understanding of the toolchain than just that of the C language itself.  Require a compatibility layer like Cygwin/MinGW is the antithesis of being a C programmer.  This is where the programmers are distinguished from the script-kiddies.
 </p><p>
 Reading a C-standard textbook from cover to index will fill one's head with un-applicable knowledge.  Unbuffered keyboard input from the user is not acquired through the C language alone, never mind audio/visual and device communications.  (And static programs won't get one laid.)  Once one breaks those barriers the code will &ndash;initially&ndash; only be valid within the environment of which it was produced.  Fuck.
 </p><p>
@@ -185,7 +190,14 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
 </details>
   
 <details>
-  <summary>- GCC, LLVM/Clang </summary>
+  <summary>GCC, LLVM/Clang </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>GMP, GNU MPFR </summary>
   <p>
   Description
   </p>
@@ -199,45 +211,24 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
 </details>
   
 <details>
-  <summary>- GCC, LLVM/Clang </summary>
-  <p>
-  Description
-  </p>
-</details>
-  
-<details>
-  <summary>- Preprocessor, Linker, Assembler </summary>
-  <p>
-  Description
-  </p>
-</details>
-  
-<details>
-  <summary>GMP / GNU MPFR </summary>
+  <summary>Preprocessor, Linker, Assembler </summary>
   <p>
   Description
   </p>
 </details>
 
 <details>
-  <summary>- SEI-CERT </summary>
+  <summary>Clean Code, Secure Coding, SEI-CERT </summary>
   <p>
   Description
   </p>
 </details>
 
 
-<h3>POSIX-Specific </h3>
+<h3>POSIX Land (Linux, MacOS..)</h3>
 
 <details>
   <summary>Cygwin, MinGW </summary>
-  <p>
-  Description
-  </p>
-</details>
-
-<details>
-  <summary>GNU, (x)GPL </summary>
   <p>
   Description
   </p>
@@ -272,7 +263,7 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
 </details>
 
 <details>
-  <summary>urandom </summary>
+  <summary>/dev/urandom </summary>
   <p>
   Description
   </p>
@@ -289,21 +280,21 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
 </details>
 
 <details>
-  <summary>ALU/FPU (IEEE 754) </summary>
+  <summary>ALU/FPU (IEEE 754), SSE </summary>
   <p>
   Description
   </p>
 </details>
 
 <details>
-  <summary>ASCII, UTF / Unicode </summary>
+  <summary>ASCII, UTF/Unicode </summary>
   <p>
   Description
   </p>
 </details>
 
 <details>
-  <summary>BSD-(n)Clause, MIT </summary>
+  <summary>BSD-(n)Clause, GNU, (x)GPL, MIT </summary>
   <p>
   Description
   </p>
@@ -318,13 +309,6 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
 
 <details>
   <summary>Cache, Register </summary>
-  <p>
-  Description
-  </p>
-</details>
-
-<details>
-  <summary>Clean Code, Secure Coding </summary>
   <p>
   Description
   </p>
@@ -353,13 +337,6 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
 
 <details>
   <summary>Entropy </summary>
-  <p>
-  Description
-  </p>
-</details>
-
-<details>
-  <summary>GCC, LLVM/Clang </summary>
   <p>
   Description
   </p>
@@ -408,13 +385,6 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
 </details>
 
 <details>
-  <summary>Preprocessor, Linker, Assembler </summary>
-  <p>
-  Description
-  </p>
-</details>
-
-<details>
   <summary>Race condition, Stack Overflow </summary>
   <p>
   Description
@@ -422,21 +392,7 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
 </details>
 
 <details>
-  <summary>Segmentation Fault </summary>
-  <p>
-  Description
-  </p>
-</details>
-
-<details>
-  <summary>Shared Object </summary>
-  <p>
-  Description
-  </p>
-</details>
-
-<details>
-  <summary>SSE </summary>
+  <summary>Shared Object, Dynamic/Static Linking </summary>
   <p>
   Description
   </p>
@@ -476,6 +432,16 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
   Description
   </p>
 </details>
+
+<h3>Reserved Just For You </h3>
+
+<details>
+  <summary>Segmentation Fault </summary>
+  <p>
+  Learn to love it.
+  </p>
+</details>
+
 
 </section>
 
