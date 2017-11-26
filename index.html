@@ -12,35 +12,25 @@
 <body bgcolor="#BBBB66">
 
 <header>
-<h1 id="title">C Programming Group </h1>
+<h1 id="title">Taking Over the World with C Programming </h1>
 
-<a href="" class="nobreak">Coding Practices </a>
-&nbsp; &nbsp; | &nbsp; &nbsp;
-<a href="" class="nobreak">Templates </a>
-&nbsp; &nbsp; | &nbsp; &nbsp;
-<a href="" class="nobreak">One-Liners (Get laid tonight!) </a>
-&nbsp; &nbsp; | &nbsp; &nbsp;
-<a href="" class="nobreak">Data Structures </a>
-&nbsp; &nbsp; | &nbsp; &nbsp;
-<a href="" class="nobreak">Algorithms </a>
-&nbsp; &nbsp; | &nbsp; &nbsp;
-<a href="" class="nobreak">Challenges </a>
-&nbsp; &nbsp; | &nbsp; &nbsp;
-<a href="" class="nobreak">Games </a>
-
-<hr />
+<object type="text/html" data="./navigation.html" width="100%"></object>
 
 </header>
 
+
+
 <main>
+
+<hr />
 
 
 
 <figure>
-  <img src="./Player1.jpg" alt="Player 1 mugshot" style="width:20vw" />
-  <img src="./Player2.jpg" alt="Player 2 mugshot" style="width:20vw" />
-  <img src="./Player3.jpg" alt="Player 3 mugshot" style="width:20vw" />
-  <img src="./player4.jpg" alt="Player 4 mugshot" style="width:20vw" />
+  <img src="./pics/mugshots/player1.jpg" alt="Player 1 mugshot" style="width:20vw" />
+  <img src="./pics/mugshots/player2.jpg" alt="Player 2 mugshot" style="width:20vw" />
+  <img src="./pics/mugshots/player3.jpg" alt="Player 3 mugshot" style="width:20vw" />
+  <img src="./pics/mugshots/player4.jpg" alt="Player 4 mugshot" style="width:20vw" />
   
   <figcaption> Familiar Faces </figcaption>
 </figure>
@@ -85,7 +75,7 @@ We are <em>amateurs</em> and fanatic about details; fascinated to know what's <e
 
 <p>
 C is <em>lingua franca</em>.  The Godfather.  There are no "there's no library for that yet" excuses.  You will find that most language runtimes are merely built atop C, waiting for capabilities to be written in C.  <em>What-a-shit-show</em>.  (Pity the fool who says it cannot be done in C!)  C is the go-to <em>foundation</em> for real engineers developing new technology, making it ubiquitous within the tools one uses today.
-How the C runtime implements ideas is how POSIX systems as-a-whole get implemented (Linux, Android, Chrome Books, Raspberry Pi, Internet servers, many others!)  The two specifications were drafted simultaneously and have been in bed together ever since.  Competing languages will try to compare, but C is the veteran in the room that has done it all.
+How the C runtime implements ideas is how UNIX &ndash;and consequently, POSIX&ndash; systems as-a-whole get implemented (Internet servers, financial systems, all mobile devices, many more!)  The two technologies were developed in tandom and have been in bed together ever since.  Competing languages will try to compare, but C is the veteran in the room that has done it all.
 Micro-managing code to optimize algorithms makes C binaries the fastest practical processes [<a href="https://benchmarksgame.alioth.debian.org/u64q/which-programs-are-fastest.html">benchmarks</a>].  Being just a step above Assembly, it is expressive as a high level language, while having the ability to cater to the hardware.  The real power goes to those with the faculties to master its domain, as one is made responsible for the binary they produce.  The training wheels are off and there is no safety net!  (Not true anymore, the OS has many built-in fail-safes.)  There are no cutting corners, it demands thoroughness.  Use it wisely.  The first principle in the "spirit of C" is to <em>trust the programmer</em>.
 </p>
 
@@ -119,10 +109,14 @@ Micro-managing code to optimize algorithms makes C binaries the fastest practica
 <h3>The Contenders</h3>
 
 <ul>
-  <li><em>C++</em> is its own beast.  Originally as a superset to C for OOP extensions, it has deviated from C, though ANSI-C code will still compile on a C++ compiler.  C++ is very suitable for large projects with its OOP design.  It does, however, suffer from identidy insecurities because it is always trying to stance-up against C. </li>
+  <li><em>C++</em> is its own beast.  Originally as a superset to C for OOP extensions, it has deviated from C, though ANSI-C code will still compile on a C++ compiler.  C++ is very suitable for large projects with its OOP design.  It does, however, suffer from identidy insecurities because it is always trying to stance-up against C for some reason. </li>
   <li><em>Objective-C</em> is a direct superset of C adopted by Apple for their products, now superceded by Swift.  C code will always compile on Objective-C.  Learn C, and Objective-C will be a breeze.  </li>
-<li><em>C#</em> has a similar relation to C as C++, and is developed by Microsoft for their products.  Microsoft and Apple kernels are both originally -and still contain- C code. </li>
+  <li><em>C# (C-Sharp)</em> has a similar relation to C as C++, and is developed by Microsoft for their products.  It mostly compiles to Common Intermediate Language (CIL) for a Common Language Infrastructure/Runtime (CLI, CLR).  C compiles to machine code. C# is also the scripting language for the Unity game engine.</li>
 </ul>
+
+<p>
+Extra: Both Microsoft and Apple kernels are originally -and still contain- C code.
+</p>
 
 
 <h3>When and how to C </h3>
@@ -181,6 +175,13 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
   Description
   </p>
 </details>
+
+<details>
+  <summary>Clean Code, Secure Coding, SEI-CERT </summary>
+  <p>
+  Description
+  </p>
+</details>
   
 <details>
   <summary>crt0 </summary>
@@ -217,15 +218,10 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
   </p>
 </details>
 
-<details>
-  <summary>Clean Code, Secure Coding, SEI-CERT </summary>
-  <p>
-  Description
-  </p>
-</details>
 
-
+<!-------------------------------------------------->
 <h3>POSIX Land (Linux, MacOS..)</h3>
+<!-------------------------------------------------->
 
 <details>
   <summary>Cygwin, MinGW </summary>
@@ -270,7 +266,9 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
 </details>
 
 
-<h3>General Programming </h3>
+<!-------------------------------------------------->
+<h3>General Programming </h3> 
+<!-------------------------------------------------->
 
 <details>
   <summary>Algorithms, P vs NP </summary>
@@ -323,6 +321,13 @@ Start with the preprocessor and the linker&mdash;learn the toolchain!  It's unse
 
 <details>
   <summary>Declarative, Functional, Imperative, Paradigms, Object-Oriented (OOP) </summary>
+  <p>
+  Description
+  </p>
+</details>
+
+<details>
+  <summary>DWARF, ELF </summary>
   <p>
   Description
   </p>
