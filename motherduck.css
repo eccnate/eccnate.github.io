@@ -1,0 +1,18 @@
+figure {
+	margin:0px;
+	padding:0px;
+}
+
+.pics {
+	margin:0px;
+	padding:0px;
+}
+
+.profile {
+	width:20vw;
+	border-radius:50%;
+}
+
+.dual {
+	white-space:nowrap;
+}
