@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
+  <link rel="stylesheet" href="motherduck.css" />
+  
   <title>Motherduck Landing Strip</title>
 </head>
 
@@ -20,9 +22,9 @@
 <object type="text/html" data="./navigation.html" style=" width:100vw; height:5em"> </object>
 
 
-<p>
-<strong>Nov.2017 : </strong>
-<mark>Marin is building a collaboration library and Nathan has yet to complete Euler Project #2 challenge.</mark>
+<p><mark>
+<strong>Nov.2017 &mdash; </strong>
+Marin is building a collaboration library and Nathan has yet to complete Euler Project #2 challenge.</mark>
 </p>
 
 
@@ -44,11 +46,15 @@
 <h2>Who We Are </h2>
 
 
-<figure>
-  <img src="./Player1.jpg" alt="Player 1 mugshot" style="width:20vw" />
-  <img src="./Player2.jpg" alt="Player 2 mugshot" style="width:20vw" />
-  <img src="./Player3.jpg" alt="Player 3 mugshot" style="width:20vw" />
-  <img src="./player4.jpg" alt="Player 4 mugshot" style="width:20vw" />
+<figure class="pics">
+  <span class="dual">
+    <img src="./Player1.jpg" alt="Player 1 mugshot" class="profile" />
+    <img src="./Player2.jpg" alt="Player 2 mugshot" class="profile" />
+  </span>
+  <span class="dual">
+    <img src="./Player3.jpg" alt="Player 3 mugshot" class="profile" />
+    <img src="./player4.jpg" alt="Player 4 mugshot" class="profile" />
+  </span>
   
   <figcaption> Familiar Faces </figcaption>
 </figure>
@@ -62,12 +68,14 @@ Actually <em>making use</em> of the language is elusive."
 
 
 <p>
-We are <em>amateurs</em> and fanatic about details; fascinated to know what's <em>really</em> happening under the hood and to be in absolute control in our programming.  Why accept limitations?
+We are <em>amateurs</em> and fanatic about details; fascinated to know what's <em>really</em> happening under the hood while remaining practical and to be in absolute control in our programming.  Why accept limited powers?
 </p>
 
 
 <blockquote>
 "Do not trust abstracted languages!" 
+<br /><br />
+"We're not stringing together APIs, here, and calling it programming."
 </blockquote>
 <cite>&mdash;Motherduck</cite>
 
@@ -94,7 +102,7 @@ We are <em>amateurs</em> and fanatic about details; fascinated to know what's <e
 
 
 <p>
-C is <em>lingua franca</em>.  The Godfather.  There are no "there's no library for that yet" excuses.  C allows one to be intimate with system calls because it was around before gimmicks started being made, and it uses intuitive paradigms to real problem-solvers.  You will find that most language runtimes are merely built atop C, waiting for capabilities to be written in C.  <em>What-a-shit-show</em>.
+C is <em>lingua franca</em>.  The Godfather.  C expects one to make system calls because, instead, it was around before gimmicks started being made, and it uses intuitive paradigms to real problem-solvers.  There are no excuses for there "not being a library for that yet."  You will find that most language runtimes are merely built atop C, waiting for capabilities to be written in C.  <em>What-a-shit-show</em>.
 </p>  
 
 
@@ -105,7 +113,7 @@ C is <em>lingua franca</em>.  The Godfather.  There are no "there's no library f
 
 
 <p>
-C is the go-to <em>foundation</em> for real engineers developing new technology, making it ubiquitous within the tools one uses today.  It was designed with the purpose of running on bare metal&mdash;<em>all of it</em>.  How the C runtime implements ideas is how UNIX &ndash;and consequently, POSIX&ndash; systems as-a-whole get implemented (Internet servers, financial systems, all mobile devices, many more!)  The two technologies were developed in tandom and have been in bed together ever since.  Competing languages will try to compare, but C is the veteran in the room that has built it all.
+C is the go-to <em>foundation</em> for real engineers developing new technology, making it ubiquitous within the tools one uses today.  Its runtime is designed to run on metal&mdash;<em>all of it</em>.  How the C runtime implements ideas is how UNIX &ndash;and subsequently, POSIX&ndash; systems as-a-whole get implemented (Internet servers, financial systems, all mobile devices, many more!)  The two technologies were developed in tandom and have been in bed together ever since.  Competing languages will try to compare, but C is the veteran in the room that has built it all.
 </p>
 <P>
 Micro-managing code to optimize algorithms makes C binaries the fastest practical processes [<a href="https://benchmarksgame.alioth.debian.org/u64q/which-programs-are-fastest.html">benchmarks</a>].  Being just a step above Assembly, it is expressive as a high level language, while having the ability to cater to the hardware.  This is why kernels are made with C.  The real power goes to those with the faculties to master its domain, as one is made responsible for the binaries of which they produce.  The training wheels are off and there is no safety net!  (Not true anymore, the OS has many built-in fail-safes.)  There are no cutting corners, it demands thoroughness.  Use it wisely.  The first principle in the "spirit of C" is to <em>trust the programmer</em>.
@@ -125,7 +133,7 @@ Micro-managing code to optimize algorithms makes C binaries the fastest practica
 
 
 <section>
-<h2>The Down Low </h2>
+<h2>The Low Down </h2>
 
 <h3>What distinguishes C? </h3>
 <ul>
@@ -148,7 +156,7 @@ Micro-managing code to optimize algorithms makes C binaries the fastest practica
 </ul>
 
 <p>
-Extra: Both Microsoft and Apple kernels are originally &ndash;and still contain&ndash; C code.
+Both Microsoft and Apple kernels are originally &ndash;and still contain&ndash; C code.
 </p>
 
 
